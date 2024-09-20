@@ -35,6 +35,9 @@ void ReadStudentData() {
 }
 
 int main(void) {
+	#ifdef _DEBUG
 	ReadStudentData();
+	#endif // _DEBUG
+
 	return 1;
 }
